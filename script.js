@@ -1,4 +1,4 @@
-const API_KEY = "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";
+const API_KEY = "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";
 
 async function generateText() {
 
