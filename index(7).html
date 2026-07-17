@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="card">
+  <h2>AI Content Generator</h2>
+
+  <select id="lineCount">
+    <option value="1">1 Line</option>
+    <option value="2">2 Lines</option>
+    <option value="3">3 Lines</option>
+    <option value="4">4 Lines</option>
+    <option value="5">5 Lines</option>
+  </select>
+
+  <select id="language">
+    <option>Hindi</option>
+    <option>English</option>
+    <option>Hinglish</option>
+    <option>Tamil</option>
+    <option>Marathi</option>
+  </select>
+
+  <button onclick="generateText()">Generate</button>
+
+  <div id="output">Your result will appear here...</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
